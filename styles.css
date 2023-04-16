@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+body {
+background-color: #f1f1f1;
+color: #0f141e;
+font-size: 16px;
+font-weight: normal;
+font-family: 'Roboto', sans-serif;
+}
+
+.large_game {
+    width: 250px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info p {
+    color: #86898f;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+   /* text-transform:none; */
+    letter-spacing: 1px;
+   /* word-spacing: 12px; */
+}
+/* Box Model*/
+.container {
+    max-width: 750px;
+    margin: auto;
+}
+.social {
+    background: green;
+    /* padding: 15px; */
+    padding: 15px 35px;
+
+    margin: 5px;
+
+    border: 10px solid yellowgreen;
+    border-top-width: 15px;
+    border-bottom-style: dotted;
+}
+
+
